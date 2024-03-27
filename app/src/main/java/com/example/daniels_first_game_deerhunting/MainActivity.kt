@@ -120,7 +120,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun endGame() {
         // Display final score and allow restarting the game
-        scoreTextView.text = "Game Over! Final Score: $score"
         gameStarted = false
         timer = null
 
