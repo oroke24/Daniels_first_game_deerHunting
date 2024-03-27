@@ -1,13 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- deer.xml -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="200dp"
     android:height="200dp"
     android:viewportWidth="24"
     android:viewportHeight="24">
 
+    <!-- Head -->
     <path
-        android:fillColor="#A1887F"
-        android:pathData="M19,5c0,0,2,4,0,5c-2,0.5-2-1-4-1s-2,1.5-4,1s-2-5,0-5s3,3,4,3s3-3,4-3z" />
+        android:fillColor="#8B4513"
+        android:pathData="M10,1 L14,1 L14,5 Q14,8 17,10 Q20,12 17,14 Q14,16 14,19 L10,19 Q10,16 7,14 Q4,12 7,10 Q10,8 10,5 Z" />
+
+    <!-- Left Ear -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M6,5 Q7,1 10,1 L10,5 Z" />
+
+    <!-- Right Ear -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M14,1 Q17,1 18,5 L18,5 Q21,7 20,10 Q17,4 14,5 Z" />
+
+    <!-- Left Antler -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M5,10 L3,8 L3,6 Q4,5 5,6 L7,10 Z" />
+
+    <!-- Right Antler -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M19,10 L21,8 L21,6 Q20,5 19,6 L17,10 Z" />
+
+    <!-- Left Eye -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M9,13 Q8,13 8,14 Q8,15 9,15 Q10,15 10,14 Q10,13 9,13 Z" />
+
+    <!-- Right Eye -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M15,13 Q14,13 14,14 Q14,15 15,15 Q16,15 16,14 Q16,13 15,13 Z" />
+
+    <!-- Nose -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,13 Q11,13 11,14 Q11,15 12,15 Q13,15 13,14 Q13,13 12,13 Z" />
+
+    <!-- Mouth -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M12,16 Q12,17 11,16 Q10,16 10,16 Q10,17 11,18 Q12,18 13,18 Q14,17 14,16 Q13,16 12,16 Z" />
+
+    <!-- Detail Path 1 -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M11,5 L13,5 Q14,7 12,9 Q10,7 11,5 Z" />
+
+    <!-- Detail Path 2 -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M11,19 Q11,17 10,17 Q9,17 9,19 Q9,21 11,19 Z" />
+
+    <!-- Detail Path 3 -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M13,19 Q13,17 14,17 Q15,17 15,19 Q15,21 13,19 Z" />
+
+    <!-- Detail Path 4 -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M8,8 Q8,9 9,9 Q10,9 10,8 Q10,7 9,7 Q8,7 8,8 Z" />
+
+    <!-- Detail Path 5 -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M16,8 Q16,9 17,9 Q18,9 18,8 Q18,7 17,7 Q16,7 16,8 Z" />
 
 </vector>
