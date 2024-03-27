@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun updateScore() {
         // Update the score text view
-        scoreTextView.text = "Score: $score"
+        scoreTextView.text = "$score pts"
     }
 
     private fun moveDeerRandomly() {
@@ -168,6 +168,7 @@ class MainActivity : AppCompatActivity() {
             if (username.isNotEmpty()) {
                 // Save record locally (You can implement your own local storage mechanism)
                 saveRecordLocally(username, score)
+                populateListView()
                 dialog.dismiss()
                 // Restarting game
                 resetGame()
