@@ -25,6 +25,8 @@
                 android:name="android.app.lib_name"
                 android:value="daniels_first_game_deerhunting" />
         </activity>
+        <activity android:name=".Version1"/>
+        <activity android:name=".TimedVersion"/>
     </application>
 
 </manifest>
